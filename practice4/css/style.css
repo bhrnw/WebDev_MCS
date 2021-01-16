@@ -1,0 +1,63 @@
+.header{
+	width: 1440px;
+	height: 200px;
+	background-color: #FF4500;
+} 
+.header-title{
+	font-family: "Helvetica";
+	font-size: 50px;
+	font-weight: bolder;
+	color: #FFFFFF;
+	padding: 80px 80px;
+}
+.image{
+	width: 1440px;
+	height: 700px;
+	background-image: url(../img/img.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+.block3{
+	width: 1440px;
+	height: 100px;
+	background-color: #FF4500;
+}
+
+.block3-title{
+	font-family: "Helvetica"
+	font-size: 25px;
+	font-weight: bolder;
+	padding: 36px 80px;
+	color: #FFFFFF;
+}
+.main{
+	height: 600px;
+	font-family: "Helvetica";
+	font-size: 50px;
+	color: #000;
+	padding-left: 80px;
+}
+.main h2{
+	font-family: "Helvetica";
+	font-size: 50px;
+	font-weight: bolder;
+	color: #000;
+}
+.footer{
+	width: 1440px;
+	height: 100px;
+	background-color: #FF4500;
+}
+.footer-image{
+	padding-top:  20px;
+	padding-left: 80px;
+}
+.footer-title{
+	font-family: "Helvetica";
+	font-size: 50px;
+	font-weight: bolder;
+	color: #FFFFFF;
+	margin-top: -50px;
+	margin-left: 750px;
+}

@@ -1,4 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
 .section-title{
 	color: white;
 	background: black;
+}
+
+main img{
+	width: 100%;
+
+}
+
+header h1{
+	font-family: 'Roboto', sans-serif;
+
+}
+
+
+}
+
+.section-title{
+	font-family: 'Roboto', sans-serif;
+
 }
