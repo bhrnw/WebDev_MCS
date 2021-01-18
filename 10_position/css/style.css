@@ -1,0 +1,37 @@
+section{
+	height: 600px;
+	border: 2px solid black ;
+}
+.inner{
+	height: 50px;
+	width: 50px;
+}
+
+.static .inner{
+	background-color: blue;
+	position: static;
+}
+
+.relative .inner{
+	background-color: green;
+	position: relative;
+	bottom: 50px; /*элемент двигается относительно себя самого*/
+}
+
+.absolute{
+	position: relative;
+}
+.absolute .inner{              /*так как элемент имеет ABSOLUTE поз. но его род RELATIVE, он другается относительно своей SECTION*/
+	background-color: red;
+	position: absolute;
+	right: 40px;
+	top: 40px;                 /* код предпочитает TOP, LEFT*/
+}
+.fixed .inner{
+	background-color: lightblue;	
+	position: fixed;
+	bottom: 0;
+	right:0; /*относительно окну*/
+
+}
+/
