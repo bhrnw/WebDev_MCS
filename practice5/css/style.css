@@ -1,10 +1,13 @@
 h1{
-	font-style: :20px "Helvetica";
+	font: 20px "Helvetica";
 	font-weight: bolder;
 }
-.header{
+.header,.footer{
 	background-color: #FE1A19;
 	color: #FFFFFF;
+	padding: 10px;
+	font: 20px "Helvetica";
+	font-weight: bold;
 }
 .outter{
 	width: 400px;
@@ -15,9 +18,10 @@ h1{
 	margin-left: 50px;
 	margin-top: 50px;
 	margin-bottom: 50px;
+	font-weight: normal;
+	font-family: "Time New Roman";
 }
 .outter h1{
-	font: 20px "Helvetica";
 	font-weight: bolder;
 	padding-left: 20px;
 }
@@ -25,8 +29,5 @@ h1{
 	direction: block;
 	padding-left: 20px;
 }
-.footer{
-	background-color: #FE1A19;
-	color: #FFF;
-}	
+
 
