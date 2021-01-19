@@ -1,0 +1,32 @@
+h1{
+	font-style: :20px "Helvetica";
+	font-weight: bolder;
+}
+.header{
+	background-color: #FE1A19;
+	color: #FFFFFF;
+}
+.outter{
+	width: 400px;
+	border: 5px solid #E5E000;
+	border-radius: 30px;
+	box-sizing: border-box;
+	display: inline-block;
+	margin-left: 50px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.outter h1{
+	font: 20px "Helvetica";
+	font-weight: bolder;
+	padding-left: 20px;
+}
+.outter-text{
+	direction: block;
+	padding-left: 20px;
+}
+.footer{
+	background-color: #FE1A19;
+	color: #FFF;
+}	
+
