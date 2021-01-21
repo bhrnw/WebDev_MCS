@@ -49,6 +49,7 @@
 	background-image: url(../img/logo.png);
 	background-repeat: no-repeat;
 	background-position: left center;
+	line-height: 100px;
 }
 .footer-image{
 	padding-top:  20px;
